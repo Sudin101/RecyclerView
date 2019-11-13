@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     ArrayList<User> usersList = new ArrayList<>();
 
 
-    String[] imagesuggests = {"person1", "person2"};
+    String[] imagesuggests = {"person1", "person2","person3","person4"};
 
     Calendar calendardata = Calendar.getInstance();
     DatePickerDialog.OnDateSetListener mydatepicker = new DatePickerDialog.OnDateSetListener() {
@@ -90,6 +90,8 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         countries.add("India");
         countries.add("Pakistan");
         countries.add("Bhutan");
+        countries.add("Maldives");
+        countries.add("Srilanka");
 
         ArrayAdapter<String> adapter =new ArrayAdapter(this,R.layout.spinner_values,countries);
         spin.setAdapter(adapter);
