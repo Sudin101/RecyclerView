@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     ArrayList<User> usersList = new ArrayList<>();
 
 
-    String[] imagesuggests = {"person1", "person2","person3","person4"};
+    String[] imagesuggests = {"p1", "p2","p3","p4"};
 
     Calendar calendardata = Calendar.getInstance();
     DatePickerDialog.OnDateSetListener mydatepicker = new DatePickerDialog.OnDateSetListener() {
@@ -129,8 +129,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 usersList.add(new User(name,gender,dob,country,phone,email,image));
                     Toast.makeText(this,"Sumbitted",Toast.LENGTH_SHORT).show();
             }
-
-
 
 
         }
