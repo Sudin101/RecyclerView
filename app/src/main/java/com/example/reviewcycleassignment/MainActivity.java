@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
             if(validate())
             {
                 usersList.add(new User(name,gender,dob,country,phone,email,image));
-//                    Toast.makeText(this,userList.get(0).getName(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"Sumbitted",Toast.LENGTH_SHORT).show();
             }
 
 
